@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>My Website2</title>
+        <link rel="stylesheet" href="Mystyle2.css">
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="HOME.html">HOME</a></li>
+                <li><a href="ABOUT.html">ABOUT US</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+                <li><a href="REGISTER.html">REGISTER</a></li>
+                <li><a href="LOGIN.html">LOGI N</a></li>
+            </ul>
+        </nav>
+        <form action="loginsuccess.html">
+               <center><h1>Login with Social Media or Manually...</h1></center>
+                <img border="0" src="food7.jpeg" width="50px" height="60px"><br>
+                <a href="facebook.com" >Login with facebook+</a><br>
+                <a href="twitter.com" >Login with twitter+</a><br>
+                <a href="google.com" >Login with Google+</a><br>
+                <h2>Or sign in Manually</h2>
+                    <h3>Login Form:</h3>
+                        User Name:<input type="text" name="uname" placeholder="USER NAME" autofocus><br>
+                        password:<input type="passord" name="pass" placeholder="PASSWORD"><br>
+                        <input type="submit">
+        </form>
+        <br>
+        <footer>
+            <p>&copy; 2024 My MyCompany.All right reserved</p>
+        </footer>
+    </body>
+</html>
